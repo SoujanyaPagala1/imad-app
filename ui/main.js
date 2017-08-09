@@ -6,6 +6,7 @@ var element = document.getElementById('main-text');
 element.innerHTML = "new value"
 
 //move the image
+var marginLeft = 0;
 var img = document.getElementById('modi');
 function moveRight(){
     marginLeft = marginLeft + 10;
